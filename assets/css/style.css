@@ -1,0 +1,1040 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'agdasima', sans-serif;
+    background-color: #D2C9BE;
+}
+nav {
+    background-color: #728F96;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #728F96;
+    gap: 120px;
+}
+nav ul li{
+    background-color: #728F96;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    background-color: #728F96;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    height: 600px;
+}
+.welcome img {
+    border-radius: 120px;
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.welcome p {
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 100px;
+}
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    height: 600px;
+}
+.information img {
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    width: 379px;
+    height: 450px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.information p {
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 90px;
+    width: 650px;
+}
+.extra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    height: 400px;
+    border: 3px solid #728F96;
+    margin-bottom: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.extra p{
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+    width: 900px;
+}
+.projecten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    font-size: 50px;
+}
+.surrealisme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    height: 600px;
+    border: 3px solid #728F96;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.surrealisme img {
+    width: 320px;
+    height: 450px;
+    margin-top: 20px;
+    margin-right: 170px;
+}
+.surrealisme p{
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+}
+.illustrator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    height: 600px;
+    border: 3px solid #728F96;
+    margin: 350px 50px;
+}
+.illustrator img{
+    width: 520px;
+    height: 309px;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+.illustrator p{
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    width: 600px;
+}
+.armani {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    height: 600px;
+    border: 3px solid #728F96;
+    margin: 350px 50px;
+}
+.armani img {
+    width: 279px;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+
+}
+.pijl img {
+    width: 20px;
+    height: 20px;
+}
+.armani p{
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 100px;
+}
+.brand-book{
+    padding: 50px 20px;
+    height: 400px;
+    border: 3px solid #728F96;
+    margin: 350px 50px;
+}
+.brand-book-link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding-bottom: 50px;
+    color: black;
+    text-decoration: none;
+}
+.brand-book-link a:hover{
+    text-decoration: underline;
+}
+.titel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    font-size: 45px;
+}
+.wpl{
+    padding: 50px 20px;
+    height: 400px;
+    border: 3px solid #728F96;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 350px;
+}
+.pop-sessies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.link a{
+    color: black;
+    text-decoration: none;
+    margin-left: 275px;
+    font-size: 25px;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.seminarie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.link1 a{
+    color: black;
+    text-decoration: none;
+    margin-left: 600px;
+    font-size: 25px;
+}
+.link1 a:hover{
+    text-decoration: underline;
+}
+.vacatures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.link2 a{
+    color: black;
+    text-decoration: none;
+    margin-left: 620px;
+    font-size: 25px;
+}
+.link2 a:hover{
+    text-decoration: underline;
+}
+.dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.link3 a{
+    color: black;
+    text-decoration: none;
+    margin-left: 400px;
+    font-size: 25px;
+}
+.link3 a:hover{
+    text-decoration: underline;
+}
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.link4 a{
+    color: black;
+    text-decoration: none;
+    margin-left: 620px;
+    font-size: 25px;
+}
+.link4 a:hover{
+    text-decoration: underline;
+}
+.eindreflectie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.link5 a{
+    color: black;
+    text-decoration: none;
+    margin-left: 590px;
+    font-size: 25px;
+}
+.link5 a:hover{
+    text-decoration: underline;
+}
+.case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.tekst{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.aandeel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+.geleerd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    font-size: 35px;
+}
+
+.resultaat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+.resultaat-link a{
+    color: black;
+    text-decoration: none;
+    margin-left: 620px;
+    font-size: 25px;
+}
+.resultaat-link a:hover{
+    text-decoration: underline;
+}
+.eindreflectie2 a{
+    color: black;
+    text-decoration: none;
+    margin-left: 590px;
+    font-size: 25px;
+}
+.eindreflectie2 a:hover{
+    text-decoration: underline;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    height: 600px;
+    gap: 150px;
+}
+.contact p{
+    display: flex;
+    font-size: 27px;
+    justify-content: center;
+    text-align: center;
+}
+.socials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+.social-item{
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.social-item img{
+    height: 35px;
+    width: 35px;
+
+}
+footer {
+    background-color: #728F96;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-decoration: none;
+}
+footer ul{
+    text-decoration: none;
+    color: black;
+    background-color: #728F96;
+}
+footer ul li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color: #728F96;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: #728F96;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+.pop-in {
+    opacity: 0;
+    transform: translateY(60px) scale(0.8);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.pop-in.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    font-size: 24px;
+    background-color: #728F96;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+    z-index: 1000;
+}
+
+#backToTop.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media (max-width: 1050px){
+    nav ul li{
+        font-size: 20px;
+        flex-direction: row;
+    }
+
+    .welcome {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .welcome img {
+        width: 300px;
+        height: 250px;
+        margin: 20px auto;
+    }
+
+    .welcome p {
+        font-size: 25px;
+        margin: 0 15px;
+        flex-direction: row;
+    }
+
+    .information {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .information img {
+        width: 280px;
+        height: 350px;
+        margin: 20px auto;
+    }
+
+    .information p {
+        font-size: 20px;
+        margin: 0 15px;
+        width: auto;
+    }
+
+    .extra {
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .extra p {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .projecten {
+        font-size: 40px;
+        height: 250px;
+    }
+
+    .surrealisme {
+        flex-direction: column;
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .surrealisme img {
+        width: 250px;
+        height: 350px;
+        margin: 20px auto;
+    }
+
+    .surrealisme p {
+        font-size: 20px;
+        width: auto;
+        margin: 0 15px;
+    }
+
+    .illustrator {
+        flex-direction: column;
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .illustrator img {
+        width: 400px;
+        height: 240px;
+        margin: 20px auto;
+    }
+
+    .illustrator p {
+        font-size: 20px;
+        width: auto;
+        margin: 0 15px;
+    }
+
+    .armani {
+        flex-direction: row;
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+
+    }
+
+    .armani img {
+        width: 220px;
+        height: 270px;
+        margin: 20px auto;
+    }
+
+    .armani p {
+        font-size: 16px;
+        width: 500px;
+        margin: 15px;
+    }
+
+    .brand-book {
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .brand-book-link a {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .titel {
+        font-size: 35px;
+        height: 250px;
+    }
+
+    .wpl {
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .pop-sessies, .seminarie, .vacatures, .dashboard, .portfolio, .eindreflectie, .resultaat {
+        font-size: 30px;
+        padding: 30px 15px;
+        margin-bottom: 50px;
+        text-align: center;
+        display: block;
+    }
+
+    .link a, .link1 a, .link2 a, .link3 a, .link4 a, .link5 a, .resultaat-link a, .eindreflectie2 a {
+        margin-left: 0;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        flex-direction: row;
+    }
+
+    .case, .aandeel, .geleerd {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .tekst {
+        font-size: 18px;
+        margin: 0 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 15px;
+        gap: 50px;
+    }
+
+    .contact p {
+        font-size: 24px;
+    }
+
+    .socials-container {
+        margin-top: 15px;
+    }
+
+    .social-item img {
+        height: 30px;
+        width: 30px;
+    }
+
+    footer {
+        padding: 20px;
+        margin-top: 40px;
+    }
+    #backToTop {
+        display: none;
+    }
+
+    #backToTop.show {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    nav ul {
+        gap: 60px;
+        font-size: 20px;
+    }
+
+    .welcome {
+        flex-direction: row;
+        height: auto;
+        padding: 30px 15px;
+        margin-top: 130px;
+        margin-left: 100px;
+    }
+
+    .welcome img {
+        width: 350px;
+        height: 300px;
+        margin: 20px auto;
+    }
+
+    .welcome p {
+        font-size: 35px;
+        margin: 0 15px;
+    }
+
+    .information {
+        flex-direction: row;
+        height: auto;
+        padding: 30px 15px;
+        margin-top: 100px;
+    }
+
+    .information img {
+        width: 280px;
+        height: 350px;
+        margin: 20px auto;
+    }
+
+    .information p {
+        font-size: 20px;
+        margin: 0 15px;
+        width: 600px;
+    }
+
+    .extra {
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .extra p {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .projecten {
+        font-size: 40px;
+        height: 250px;
+    }
+
+    .surrealisme {
+        flex-direction: row;
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .surrealisme img {
+        width: 200px;
+        height: 300px;
+        margin: 20px auto;
+    }
+
+    .surrealisme p {
+        font-size: 20px;
+        width: 700px;
+        margin: 0 15px;
+    }
+
+    .illustrator {
+        flex-direction: row;
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .illustrator img {
+        width: 400px;
+        height: 240px;
+        margin: 20px auto;
+    }
+
+    .illustrator p {
+        font-size: 20px;
+        width: auto;
+        margin: 0 15px;
+    }
+
+    .armani {
+
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .armani img {
+        width: 150px;
+        height: 200px;
+        margin: 20px auto;
+        flex-direction: row;
+    }
+
+    .armani p {
+        font-size: 20px;
+        width: 600px;
+        margin: 0 15px;
+    }
+    .pijl img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .brand-book {
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .brand-book-link a {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .titel {
+        font-size: 35px;
+        height: 250px;
+    }
+
+    .wpl {
+        height: auto;
+        margin: 50px 30px;
+        padding: 30px 15px;
+    }
+
+    .pop-sessies, .seminarie, .vacatures, .dashboard, .portfolio, .eindreflectie, .resultaat {
+        font-size: 30px;
+        padding: 30px 15px;
+        margin-bottom: 50px;
+        text-align: center;
+        display: block;
+    }
+
+    .link a, .link1 a, .link2 a, .link3 a, .link4 a, .link5 a, .resultaat-link a, .eindreflectie2 a {
+        margin-left: 0;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .case, .aandeel, .geleerd {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .tekst {
+        font-size: 18px;
+        margin: 0 30px;
+    }
+
+    .contact {
+        flex-direction: row;
+        height: auto;
+        padding: 30px 15px;
+        gap: 50px;
+        margin-top: 200px;
+        margin-bottom: 300px;
+    }
+
+    .contact p {
+        font-size: 24px;
+    }
+
+    .socials-container {
+        margin-top: 15px;
+    }
+
+    .social-item img {
+        height: 30px;
+        width: 30px;
+    }
+
+    footer {
+        padding: 20px;
+        margin-top: 107px;
+    }
+    #backToTop {
+        display: none;
+    }
+
+    #backToTop.show {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    nav {
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+    }
+    .welcome {
+        flex-direction: column;
+        margin-right: 100px;
+    }
+
+    .welcome img {
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
+
+    .welcome p {
+        font-size: 28px;
+        width: 300px;
+    }
+    .information {
+        flex-direction: column;
+    }
+
+    .information img {
+        width: 230px;
+        height: 300px;
+    }
+
+    .information p {
+        font-size: 18px;
+        margin: 0 10px;
+        width: 350px;
+    }
+
+    .extra {
+        margin: 30px 15px;
+        padding: 20px 10px;
+    }
+
+    .extra p {
+        font-size: 18px;
+    }
+
+    .projecten {
+        font-size: 35px;
+        height: 180px;
+    }
+
+    .surrealisme {
+        margin: 30px 15px;
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+
+    .surrealisme img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .surrealisme p {
+        font-size: 18px;
+        margin: 0 10px;
+        width: 300px;
+    }
+
+    .illustrator {
+        margin: 30px 15px;
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+
+    .illustrator img {
+        width: 280px;
+        height: 167px;
+    }
+
+    .illustrator p {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .armani {
+        margin: 30px 15px;
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+
+    .armani img {
+        width: 180px;
+        height: 220px;
+    }
+
+    .armani p {
+        font-size: 18px;
+        margin: 0 10px;
+        width: 300px;
+    }
+    .pijl img {
+        display: none;
+    }
+
+    .brand-book {
+        margin: 30px 15px;
+        padding: 20px 10px;
+    }
+
+    .brand-book-link a {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .titel {
+        font-size: 30px;
+        height: 180px;
+    }
+
+    .wpl {
+        margin: 30px 15px;
+        padding: 20px 10px;
+    }
+
+    .pop-sessies, .seminarie, .vacatures, .dashboard, .portfolio, .eindreflectie, .resultaat {
+        font-size: 25px;
+        padding: 20px 10px;
+        margin-bottom: 40px;
+    }
+
+    .link a, .link1 a, .link2 a, .link3 a, .link4 a, .link5 a, .resultaat-link a, .eindreflectie2 a {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .case, .aandeel, .geleerd {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .tekst {
+        font-size: 16px;
+        margin: 0 15px;
+    }
+
+    .contact {
+        gap: 30px;
+        flex-direction: column;
+        margin: 116px 30px;
+    }
+
+    .contact p {
+        font-size: 20px;
+    }
+
+    .social-item img {
+        height: 25px;
+        width: 25px;
+    }
+
+    #backToTop {
+        display: none;
+    }
+
+    #backToTop.show {
+        display: none;
+    }
+}
