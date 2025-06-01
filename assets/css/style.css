@@ -354,8 +354,8 @@ nav a:hover {
 .resultaat-link a{
     color: black;
     text-decoration: none;
-    margin-left: 620px;
     font-size: 25px;
+    margin-left: 370px;
 }
 .resultaat-link a:hover{
     text-decoration: underline;
